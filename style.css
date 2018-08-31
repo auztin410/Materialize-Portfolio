@@ -1,9 +1,11 @@
 .grid-container {
     display: grid;
     grid-template-columns: 20vw 20vw 20vw 20vw;
-    grid-gap: 1vw;
-    padding-left: 8vw;
-    /* background-image: url(./assets/abstract-ai-art-373543.jpg); */
+    grid-gap: 3vw;
+    padding-left: 4vw;
+    border-style: outset;
+    border-color: #9e9e9e;
+    background-color: #424242;
 } 
 
 .parallax-container {
@@ -105,6 +107,76 @@
 
 #card8 {
     grid-area: 2 / 4 / span 1 / span 1;
+}
+
+#card9 {
+    grid-area: 3 / 1 / span 1 / span 1;
+}
+
+#card10 {
+    grid-area: 3 / 2 / span 1 / span 1;
+}
+
+#card11 {
+    grid-area: 3 / 3 / span 1 / span 1;
+}
+
+#card12 {
+    grid-area: 3 / 4 / span 1 / span 1;
+}
+
+#card13 {
+    grid-area: 4 / 1 / span 1 / span 1;
+}
+
+#card14 {
+    grid-area: 4 / 2 / span 1 / span 1;
+}
+
+#card15 {
+    grid-area: 4 / 3 / span 1 / span 1;
+}
+
+#card16 {
+    grid-area: 4 / 4 / span 1 / span 1;
+}
+
+#webpages {
+    border-style: outset;
+    border-color: #9e9e9e;
+    background-color: #424242;
+}
+
+
+#email {
+    font-size: 28px;
+    margin-left: 34vw;
+}
+
+
+#email:hover {
+    transform-origin: center bottom;
+	transform: rotateX(-90deg) translateY(100%);
+    color: white;
+    
+}
+
+#linkedin {
+    font-size: 28px;
+    margin-left: 2vw;
+}
+
+#linkedin:hover {
+    color: white;
+}
+
+#github {
+    font-size: 28px;
+    margin-left: 2vw;
+}
+
+#github:hover {
+    color: white;
 }
 
 #footer {
