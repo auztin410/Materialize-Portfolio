@@ -295,7 +295,7 @@
 }
 
 @media only screen and (max-width: 768px) {
-    #quote {margin-top: 10vh;}
+    #quote {margin-top: 15vh; margin-left: 10vw; margin-right: 10vw;}
     #picture {height: 200px; width: 200px;}
     #card1 {grid-area: 1 / 1 / span 1 / span 4;}
     #card2 {grid-area: 2 / 1 / span 1 / span 4;}
