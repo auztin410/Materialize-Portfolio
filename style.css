@@ -276,6 +276,20 @@
     color: #9CA3DB;
 }
 
+#about-me {
+    background-color: #005C69;
+}
+
+#section {
+    background-color: #0D2E37;
+    color: #9CA3DB;
+}
+
+#aboutMe {
+    background-color: #9CA3DB;
+    color: #0D2E37;
+}
+
 #footer {
     text-align: center;
 }
