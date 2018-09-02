@@ -3,6 +3,7 @@
     grid-template-columns: 20vw 20vw 20vw 20vw;
     grid-gap: 3vw;
     padding-left: 4vw;
+    background-color: #0D2E37;
 } 
 
 .parallax-container {
@@ -64,7 +65,7 @@
     border: 4px;
     border-style: outset;
     border-color: #454B66;
-    background-color: 9CA3DB;
+    background-color: #677DB7;
     color: #0D2E37;
     text-align: center;
 }
@@ -72,7 +73,8 @@
 #card-title {
     font-weight: bolder;
     text-align: center;
-    background-color: #424242;
+    background-color: #454B66;
+    color: #9CA3DB;
     opacity: .50;
     width: 100%;
 }
@@ -84,13 +86,21 @@
     border-color: silver;
 }
 
-#portfolio {
-    border: 4px;
-    border-style: outset;
-    border-color: #9e9e9e;
-    background-color: #424242;
-    text-align: center;
-    /* background-color: white; */
+#card-content {
+    background-color: #005C69;
+    color: #9CA3DB;
+}
+
+#card-action {
+    background-color: #677DB7;
+}
+
+#card-link {
+    color: #005C69;
+}
+
+#card-link:hover {
+    font-weight: bolder;
 }
 
 #cardImage {
@@ -98,67 +108,131 @@
 }
 
 #card1 {
-    grid-area: 1 / 1 / span 1 / span 1;  
+    grid-area: 1 / 1 / span 1 / span 1; 
+    background-color: #9CA3DB;
+    border: 4px;
+    border-style: outset;
+    border-color: #677DB7;
 }
 
 #card2 {
     grid-area: 1 / 2 / span 1 / span 1;
+    background-color: #9CA3DB;
+    border: 4px;
+    border-style: outset;
+    border-color: #677DB7;
 }
 
 #card3 {
     grid-area: 1 / 3 / span 1 / span 1;
+    background-color: #9CA3DB;
+    border: 4px;
+    border-style: outset;
+    border-color: #677DB7;
 }
 
 #card4 {
     grid-area: 1 / 4 / span 1 / span 1;
+    background-color: #9CA3DB;
+    border: 4px;
+    border-style: outset;
+    border-color: #677DB7;
 }
 
 #card5 {
-    grid-area: 1 / 1 / span 1 / span 1;
+    grid-area: 2 / 1 / span 1 / span 1;
+    background-color: #9CA3DB;
+    border: 4px;
+    border-style: outset;
+    border-color: #677DB7;
 }
 
 #card6 {
-    grid-area: 1 / 2 / span 1 / span 1;
+    grid-area: 2 / 2 / span 1 / span 1;
+    background-color: #9CA3DB;
+    border: 4px;
+    border-style: outset;
+    border-color: #677DB7;
 }
 
 #card7 {
-    grid-area: 1 / 3 / span 1 / span 1;
+    grid-area: 2 / 3 / span 1 / span 1;
+    background-color: #9CA3DB;
+    border: 4px;
+    border-style: outset;
+    border-color: #677DB7;
 }
 
 #card8 {
-    grid-area: 1 / 4 / span 1 / span 1;
+    grid-area: 2 / 4 / span 1 / span 1;
+    background-color: #9CA3DB;
+    border: 4px;
+    border-style: outset;
+    border-color: #677DB7;
 }
 
 #card9 {
-    grid-area: 1 / 1 / span 1 / span 1;
+    grid-area: 3 / 1 / span 1 / span 1;
+    background-color: #9CA3DB;
+    border: 4px;
+    border-style: outset;
+    border-color: #677DB7;
 }
 
 #card10 {
-    grid-area: 1 / 2 / span 1 / span 1;
+    grid-area: 3 / 2 / span 1 / span 1;
+    background-color: #9CA3DB;
+    border: 4px;
+    border-style: outset;
+    border-color: #677DB7;
 }
 
 #card11 {
-    grid-area: 1 / 3 / span 1 / span 1;
+    grid-area: 3 / 3 / span 1 / span 1;
+    background-color: #9CA3DB;
+    border: 4px;
+    border-style: outset;
+    border-color: #677DB7;
 }
 
 #card12 {
-    grid-area: 1 / 4 / span 1 / span 1;
+    grid-area: 3 / 4 / span 1 / span 1;
+    background-color: #9CA3DB;
+    border: 4px;
+    border-style: outset;
+    border-color: #677DB7;
 }
 
 #card13 {
-    grid-area: 1 / 1 / span 1 / span 1;
+    grid-area: 4 / 1 / span 1 / span 1;
+    background-color: #9CA3DB;
+    border: 4px;
+    border-style: outset;
+    border-color: #677DB7;
 }
 
 #card14 {
-    grid-area: 1 / 2 / span 1 / span 1;
+    grid-area: 4 / 2 / span 1 / span 1;
+    background-color: #9CA3DB;
+    border: 4px;
+    border-style: outset;
+    border-color: #677DB7;
 }
 
 #card15 {
-    grid-area: 1 / 3 / span 1 / span 1;
+    grid-area: 4 / 3 / span 1 / span 1;
+    background-color: #9CA3DB;
+    border: 4px;
+    border-style: outset;
+    border-color: #677DB7;
 }
 
 #card16 {
-    grid-area: 1 / 4 / span 1 / span 1;
+    grid-area: 4 / 4 / span 1 / span 1;
+    background-color: #9CA3DB;
+    border: 4px;
+    border-style: outset;
+    border-color: #677DB7;
 }
 
 #webpages {
