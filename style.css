@@ -294,6 +294,27 @@
     text-align: center;
 }
 
+@media only screen and (max-width: 768px) {
+    #quote {margin-top: 10vh;}
+    #picture {height: 200px; width: 200px;}
+    #card1 {grid-area: 1 / 1 / span 1 / span 4;}
+    #card2 {grid-area: 2 / 1 / span 1 / span 4;}
+    #card3 {grid-area: 3 / 1 / span 1 / span 4;}
+    #card4 {grid-area: 4 / 1 / span 1 / span 4;}
+    #card5 {grid-area: 5 / 1 / span 1 / span 4;}
+    #card6 {grid-area: 6 / 1 / span 1 / span 4;}
+    #card7 {grid-area: 7 / 1 / span 1 / span 4;}
+    #card8 {grid-area: 8 / 1 / span 1 / span 4;}
+    #card9 {grid-area: 9 / 1 / span 1 / span 4;}
+    #card10 {grid-area: 10 / 1 / span 1 / span 4;}
+    #card11 {grid-area: 11 / 1 / span 1 / span 4;}
+    #card12 {grid-area: 12 / 1 / span 1 / span 4;}
+    #card13 {grid-area: 13 / 1 / span 1 / span 4;}
+    #card14 {grid-area: 14 / 1 / span 1 / span 4;}
+    #card15 {grid-area: 15 / 1 / span 1 / span 4;}
+    #card16 {grid-area: 16 / 1 / span 1 / span 4;}
+}
+
 @keyframes bounce {
 	0%, 20%, 60%, 100% {
 		-webkit-transform: translateY(0);
