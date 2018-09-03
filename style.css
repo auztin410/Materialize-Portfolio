@@ -310,7 +310,7 @@
 @media screen and (max-width: 600px) {
     #quote {margin-top: 15vh; margin-left: 10vw; margin-right: 10vw;}
     #picture {height: 200px; width: 200px;}
-    #lang { margin-top: 0vh;}
+    #lang { margin-top: 0vh; margin-bottom: 0;}
     #card1 {grid-area: 1 / 1 / span 1 / span 4;}
     #card2 {grid-area: 2 / 1 / span 1 / span 4;}
     #card3 {grid-area: 3 / 1 / span 1 / span 4;}
