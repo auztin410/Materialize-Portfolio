@@ -15,10 +15,3 @@ $(document).ready(function(){
 $(document).ready(function(){
   $('.scrollspy').scrollSpy();
 });
-
-// Email click script.
-// ====================
-$("#email").onclick(function(){
-  var email = "auztin410@gmail.com"
- window.location.href= link;
-})
