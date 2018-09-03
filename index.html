@@ -30,8 +30,8 @@
             <div id="navbar" class="nav-wrapper">
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
                     <li><a class="nav-color" href="#header">Contact</a></li>
-                    <li><a class="nav-color" href="#languages">Skills</a></li>
-                    <li><a class="nav-color" href="#cardImage">Portfolio</a></li>
+                    <li><a class="nav-color" href="#skills">Skills</a></li>
+                    <li><a class="nav-color" href="#card1">Portfolio</a></li>
                     <li><a class="nav-color" href="#about-me">About Me</a></li>
                 </ul>
             </div>
@@ -54,7 +54,7 @@
 
     <div id="header" class="section scrollspy">
         <img id="picture" src="./assets/mecropped.jpg" alt="me">
-        <h2>Full Stack Web Developer</h2>
+        <h2 id="title">Full Stack Web Developer</h2>
         <p>Welcome, my name's Austin I am skilled in Full Stack Web Development, with a passion for back-end development.</p>
         <br>
         <a href="mailto:auztin410@gmail.com"><span id="email" class="pulse">Email<i class="fas fa-envelope"></i></span></a>
@@ -63,9 +63,9 @@
         <a href="https://github.com/auztin410" target="_blank"><span id="github" class="pulse">GitHub<i class="fab fa-github"></i></span></a>
     </div>
 
-    <div id="languages" class="section scrollspy">
+    <div id="languages">
         <h2>Technical Skills</h2>
-        <p>Here are the technologies and languages I use.</p>
+        <p id="skills" class="section scrollspy">Here are the technologies and languages I use.</p>
         <br>
         <svg id="lang">
             <path fill="#E44D26" d="M27.854 116.354l-8.043-90.211h88.378l-8.051 90.197-36.192 10.033z"></path>
@@ -136,10 +136,10 @@
 
     <div id="grid-container">
 
-        <div id="card1" class="card">
+        <div id="card1" class="card" class="section scrollspy">
             <div class="card-image">
                 <img src="./assets/triviagame.jpg" id="cardImage" class="section scrollspy">
-                <span id="card-title" class="card-title">Trivia Game</span>
+                <span id="card-title" class="card-title" class="section scrollspy">Trivia Game</span>
             </div>
             <div id="card-content" class="card-content">
                 <p>A nerdy timed trivia game, can you get all the questions correct?</p>

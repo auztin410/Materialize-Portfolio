@@ -56,8 +56,7 @@
     border: 4px;
     border-radius: 50%;
     border-style: outset;
-    border-color: #454B66;
-    margin-top: 8px;
+    height: 350px;
 }
 
 #aboutMe {
@@ -67,11 +66,16 @@
     background-color: white;
 }
 
+#title {
+    font-size: 30px;
+}
+
 #lang {
     height: 150px;
     width: 135px;
     margin-left: 2vw; 
-    margin-top: 420px;  
+    margin-top: 420px;
+    margin-bottom: 40px;  
 }
 
 #lang:hover {
