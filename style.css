@@ -308,7 +308,7 @@
 }
 
 @media screen and (max-width: 600px) {
-    #nav-links {font-size: 18px;}
+    #nav-links {font-size: 16px;}
     #quote {margin-top: 15vh; margin-left: 10vw; margin-right: 10vw;}
     #picture {height: 200px; width: 200px;}
     #lang { margin-top: 0vh; margin-bottom: 0;}
