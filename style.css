@@ -44,10 +44,10 @@
 
 #header {
     text-align: center;
-    border: 4px;
-    border-style: outset;
-    border-color: #454B66;
-    background-color: #454B66;
+    /* border: 4px; */
+    /* border-style: outset; */
+    /* border-color: #454B66; */
+    background-color: rgb(41, 45, 63);
     color: #9CA3DB;
     text-shadow: 2px 2px #0D2E37;
 }
@@ -290,7 +290,7 @@
 }
 
 #about-me {
-    background-color: #005C69;
+    background-color: rgb(41, 45, 63);
 }
 
 #section {
